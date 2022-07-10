@@ -1,0 +1,26 @@
+* {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  word-spacing: 4em;
+}
+
+
+.list {
+  border-bottom: 3px solid black;
+}
+
+.column {
+  float: left;
+  width: 30.85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
